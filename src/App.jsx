@@ -9,10 +9,12 @@ function App() {
 
   return (
     
-  <div className="wrapper">
-    <h1 className="title">Phonebook</h1>
+    <div className="wrapper">
+      <div className='container'>
+ <h1 className="title">Phonebook</h1>
     <ContactForm />
     <SearchBox />
+      </div>
     <ContactList />
   </div>
   
