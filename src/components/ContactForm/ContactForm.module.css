@@ -36,6 +36,7 @@ label {
 .error {
   color: red;
   font-size: small;
+  text-transform: capitalize;
 }
 
 .add {
