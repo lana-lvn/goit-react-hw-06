@@ -1,0 +1,19 @@
+.text {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.wrap {
+  margin-right: auto;
+}
+
+.delete {
+  padding: 7px;
+}
+
+.delete:hover {
+  color: red;
+  cursor: pointer;
+}
